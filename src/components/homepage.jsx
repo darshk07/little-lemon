@@ -18,14 +18,12 @@ export const HomePage = () => {
             <div className="menu-heading">
                 <p>This Weeks Specials!</p>
             </div>
-            <btn className="btn menu-btn">Online Menu</btn>
-
+            <button className="btn menu-btn">Online Menu</button>
             <div className="menu">
                 <FoodCard imgsrc="greeksalad.jpg" name="Greek salad" price="$12.99" />
                 <FoodCard imgsrc="bruchetta.svg" name="Bruchetta" price="$5.99" />
                 <FoodCard imgsrc="lemondessert.jpg" name="Lemon Dessert" price="$5.00" />
             </div>
         </div>
-
     )
 }
